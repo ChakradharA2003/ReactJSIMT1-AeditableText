@@ -1,0 +1,50 @@
+* {
+  font-family: 'Roboto';
+}
+.main-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 45px 45px 45px;
+}
+.input-save-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input-field {
+  height: 40px;
+  width: 250px;
+  border: 1px solid #323f4b;
+  border-radius: 10px;
+  margin-right: 10px;
+  outline: none;
+  font-size: 18px;
+}
+.button {
+  background-color: #d946ef;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px;
+  border-width: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.saved-text {
+  color: #323f4b;
+  font-size: 30px;
+  font-weight: 350;
+  margin-right: 10px;
+}
